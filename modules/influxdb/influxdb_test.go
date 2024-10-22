@@ -3,7 +3,6 @@ package influxdb_test
 import (
 	"context"
 	"encoding/json"
-	"github.com/testcontainers/testcontainers-go/wait"
 	"net/http"
 	"path/filepath"
 	"testing"
@@ -15,6 +14,7 @@ import (
 
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/modules/influxdb"
+	"github.com/testcontainers/testcontainers-go/wait"
 )
 
 func TestV1Container(t *testing.T) {
